@@ -1,1 +1,1 @@
-export const apiUrl:string = "http://localhost:1337/api/" ;
+export const apiUrl:string = "https://cheerful-festival-8e283a63ff.strapiapp.com/api/" ;

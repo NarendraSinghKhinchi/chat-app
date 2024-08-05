@@ -11,7 +11,7 @@ interface Message {
   userId: string;
 }
 
-const socket: Socket = io("http://localhost:1337");
+const socket: Socket = io("https://cheerful-festival-8e283a63ff.strapiapp.com");
 
 export default function Home() {
   const [room, setRoom] = useState("");

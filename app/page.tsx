@@ -11,7 +11,7 @@ interface Message {
   userId: string;
 }
 
-export const socket: Socket = io("http://localhost:1337");
+const socket: Socket = io("http://localhost:1337");
 
 export default function Home() {
   const [room, setRoom] = useState("");
